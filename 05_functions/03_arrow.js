@@ -7,6 +7,24 @@ const user={
     }
 }
 
-user.welcomeMessage()
-user.username="Sam"
-user.welcomeMessage()
+// user.welcomeMessage()
+// user.username="Sam"
+// user.welcomeMessage()
+
+// console.log(this); here 'this' will print empty context{} while in browser shows window object context
+       
+        // Arrow function
+const addTwo = (num1,num2) => {
+    return num1 + num2
+}
+console.log(addTwo(3,4));
+    
+     // implicit return
+const mulTwo=(num1,num2) => (num1*num2)
+console.log(mulTwo(3,4));
+
+    // implicit return object
+const u1=()=>({username:"Ritesh"})
+console.log(u1());
+
+
